@@ -9,14 +9,14 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="500dp"
+        android:layout_height="550dp"
         android:layout_gravity="center"
         android:src="@drawable/screen"
-        android:scaleType="centerCrop"/>
+        />
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/btnlng"
+        android:id="@+id/btnstart"
         android:layout_width="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
@@ -53,7 +53,7 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/btnlng"
+        android:id="@+id/btnauthor"
         android:layout_width="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"

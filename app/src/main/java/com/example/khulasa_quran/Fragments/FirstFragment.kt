@@ -21,7 +21,7 @@ class FirstFragment:BaseFragment(){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.textView1.setOnClickListener {
+        binding.btnstart.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_secondFragment)
         }
     }
