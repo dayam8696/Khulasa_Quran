@@ -13,10 +13,17 @@
         <action
             android:id="@+id/action_firstFragment_to_secondFragment"
             app:destination="@id/secondFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_fragmentAuthor"
+            app:destination="@id/fragmentAuthor" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
         android:name="com.example.khulasa_quran.Fragments.SecondFragment"
         android:label="SecondFragment"
         tools:layout="@layout/fragment_second"/>
+    <fragment
+        android:id="@+id/fragmentAuthor"
+        android:name="com.example.khulasa_quran.Fragments.FragmentAuthor"
+        android:label="FragmentAuthor" />
 </navigation>
