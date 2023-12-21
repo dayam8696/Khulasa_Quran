@@ -9,6 +9,7 @@ import com.example.khulasa_quran.databinding.FragmentSecondBinding
 class SecondFragment:BaseFragment() {
     private val binding by lazy { FragmentSecondBinding.inflate(layoutInflater) }
 
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
