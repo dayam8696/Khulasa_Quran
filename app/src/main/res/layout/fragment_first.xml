@@ -119,21 +119,24 @@
     </androidx.cardview.widget.CardView>
 
     <FrameLayout
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="0dp"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
 
         <ImageView
+
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:src="@drawable/dark_wave"/>
 
 
         <ImageView
+
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:src="@drawable/light_wave"/>
 
     </FrameLayout>
