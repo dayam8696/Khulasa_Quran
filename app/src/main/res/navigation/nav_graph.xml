@@ -3,7 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/firstFragment">
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.khulasa_quran.Fragments.SplashScreen"
+        android:label="SplashScreen"
+        tools:layout="@layout/splash_screen">
+        <action
+            android:id="@+id/action_splashScreen_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/firstFragment"
@@ -27,4 +37,5 @@
         android:name="com.example.khulasa_quran.Fragments.FragmentAuthor"
         android:label="FragmentAuthor"
         tools:layout="@layout/fragment_author"/>
+
 </navigation>

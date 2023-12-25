@@ -5,18 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#2F1E04">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="550dp"
-        android:layout_gravity="center"
-        android:src="@drawable/screen"
-        />
+    android:background="#B7AE9F">
 
 
     <androidx.cardview.widget.CardView
         android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="START"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnpara"
         android:layout_width="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
@@ -36,12 +69,11 @@
                 android:paddingEnd="20dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="Start"
+                android:text="PARA INDEX"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:gravity="center"
-                />
+                android:gravity="center" />
 
 
         </LinearLayout>
@@ -50,7 +82,6 @@
 
 
     </androidx.cardview.widget.CardView>
-
 
     <androidx.cardview.widget.CardView
         android:id="@+id/btnauthor"
@@ -73,12 +104,11 @@
                 android:paddingEnd="20dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="About Author"
+                android:text="ABOUT AUTHOR"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:gravity="center"
-                />
+                android:gravity="center" />
 
 
         </LinearLayout>
@@ -88,11 +118,25 @@
 
     </androidx.cardview.widget.CardView>
 
+    <FrameLayout
+        android:layout_marginTop="170dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dark_wave"/>
 
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/light_wave"/>
 
+    </FrameLayout>
 
 
 </LinearLayout>
