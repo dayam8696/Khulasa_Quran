@@ -25,5 +25,6 @@
     <fragment
         android:id="@+id/fragmentAuthor"
         android:name="com.example.khulasa_quran.Fragments.FragmentAuthor"
-        android:label="FragmentAuthor" />
+        android:label="FragmentAuthor"
+        tools:layout="@layout/fragment_author"/>
 </navigation>
