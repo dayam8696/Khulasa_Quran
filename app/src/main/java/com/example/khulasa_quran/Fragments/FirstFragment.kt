@@ -27,5 +27,8 @@ class FirstFragment:BaseFragment(){
         binding.btnauthor.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_fragmentAuthor)
         }
+        binding.btnpara.setOnClickListener {
+            findNavController().navigate(R.id.action_firstFragment_to_paraIndex)
+        }
     }
 }
