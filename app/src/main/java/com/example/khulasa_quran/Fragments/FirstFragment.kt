@@ -22,13 +22,20 @@ class FirstFragment:BaseFragment(){
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.btnstart.setOnClickListener {
-            findNavController().navigate(R.id.action_firstFragment_to_secondFragment)
+            findNavController().navigate(R.id.action_splashScreen_to_firstFragment)
         }
+
+        binding.btnstart.setOnClickListener {
+            findNavController().navigate(R.id.action_firstFragment_to_startFragment)
+        }
+
         binding.btnauthor.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_fragmentAuthor)
         }
         binding.btnpara.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_paraIndex)
+
         }
+
     }
 }

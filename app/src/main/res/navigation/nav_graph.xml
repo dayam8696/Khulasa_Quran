@@ -20,21 +20,18 @@
         android:name="com.example.khulasa_quran.Fragments.FirstFragment"
         android:label="FirstFragment"
         tools:layout="@layout/fragment_first">
-        <action
-            android:id="@+id/action_firstFragment_to_secondFragment"
-            app:destination="@id/secondFragment" />
+
         <action
             android:id="@+id/action_firstFragment_to_fragmentAuthor"
             app:destination="@id/fragmentAuthor" />
         <action
             android:id="@+id/action_firstFragment_to_paraIndex"
             app:destination="@id/paraIndex" />
+        <action
+            android:id="@+id/action_firstFragment_to_startFragment"
+            app:destination="@id/startFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/secondFragment"
-        android:name="com.example.khulasa_quran.Fragments.SecondFragment"
-        android:label="SecondFragment"
-        tools:layout="@layout/fragment_second"/>
+
     <fragment
         android:id="@+id/fragmentAuthor"
         android:name="com.example.khulasa_quran.Fragments.FragmentAuthor"
@@ -45,5 +42,10 @@
         android:name="com.example.khulasa_quran.Fragments.ParaIndex"
         android:label="ParaIndex"
         tools:layout="@layout/para_index"/>
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.khulasa_quran.Fragments.StartFragment"
+        android:label="StartFragment"
+        tools:layout="@layout/start_fragment"/>
 
 </navigation>
